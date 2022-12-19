@@ -8,7 +8,7 @@ body{
     background-image: url("./images/temple2.jpg");
     background-size: cover;
     max-width: 1300px;
-    height: 400px;
+    height: 450px;
     padding: 10px 0px 40px 0px;
     display: flex;
     flex-direction: column;
@@ -19,21 +19,26 @@ body{
 
 img{
     width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 #activities{
- 
-    background-color: whitesmoke;
+    padding: 20px;
+    background: whitesmoke;
 }
 .activity-container{
+    padding: 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    align-items:center;
 }
-
-
-
+.activity-container p{
+    margin: 30px;
+}
+.activity-column img:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
 
 h1{
     background: #CCD6A6;
@@ -69,3 +74,4 @@ h1{
 .avatar{
     width: 150px;
 }
+
